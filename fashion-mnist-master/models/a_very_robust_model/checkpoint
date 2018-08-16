@@ -1,0 +1,4 @@
+model_checkpoint_path: "checkpoint-99900"
+all_model_checkpoint_paths: "checkpoint-99300"
+all_model_checkpoint_paths: "checkpoint-99600"
+all_model_checkpoint_paths: "checkpoint-99900"
