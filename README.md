@@ -1,4 +1,5 @@
-# Distributionally-Adversarial-Attack
+# Distributionally Adversarial Attack
+
 Recently, there exist many defense models against adversarial attacks. By our experiments, we figure out that one of the 
 most effective defense method is PGD adversarial training:
 *Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu* <br>
@@ -15,3 +16,5 @@ There are 2 versions for our DAA attack, i.e., DAA-BLOB and DAA-DGF. Our code is
 ### Running the code
 - `python blob_rand.py`: DAA-BLOB attack
 - `python dgf_rand.py`: DAA-DGF attack
+
+You can 
