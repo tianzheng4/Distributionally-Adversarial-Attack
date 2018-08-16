@@ -13,6 +13,7 @@ There are 2 attack versions, i.e., DAA-BLOB and DAA-DGF. Our code is written bas
 ### Running the code
 - `python blob_rand.py`: DAA-BLOB attack
 - `python dgf_rand.py`: DAA-DGF attack
+- `python dgf_rand.py`: PGD attack
 
 CIFAR10 and Imagenet Coming Soon.
 
