@@ -1,7 +1,7 @@
 # Distributionally Adversarial Attack
 
 Recently, there exist many defense models against adversarial attacks. By an extensive evaluation, we figure out that one of the 
-most effective defense method is PGD adversarial training (*Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu* https://arxiv.org/abs/1706.06083)
+most effective defense methods is PGD adversarial training (*Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu* https://arxiv.org/abs/1706.06083)
 
 Another potential provable defense method is:
 https://github.com/locuslab/convex_adversarial
