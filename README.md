@@ -17,6 +17,6 @@ There are 2 attack versions, i.e., DAA-BLOB and DAA-DGF. Our code is written bas
 
 CIFAR10 and Imagenet Coming Soon.
 
-We also evaluate our attack against provable defense, and the code will also come soon.
+We also evaluate our attack against provable defense, and the code is also coming soon.
 
 If there is any question, pls contact tzheng4@buffalo.edu
