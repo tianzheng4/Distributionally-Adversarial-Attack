@@ -17,4 +17,6 @@ There are 2 versions for our DAA attack, i.e., DAA-BLOB and DAA-DGF. Our code is
 - `python blob_rand.py`: DAA-BLOB attack
 - `python dgf_rand.py`: DAA-DGF attack
 
-You can 
+CIFAR10 and Imagenet Coming Soon.
+
+We also evaluate our attack against provable defense, and the code will also come soon.
