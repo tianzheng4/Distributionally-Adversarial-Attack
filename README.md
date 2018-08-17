@@ -6,7 +6,8 @@ most effective defense methods is PGD adversarial training (*Aleksander Madry, A
 Another potential provable defense method is:
 https://github.com/locuslab/convex_adversarial
 
-We design a new first-order attack algorithm by generalizing PGD on the space of data distributions and learning an adversarial distribution that maximally increases the generalization risk of a model. Our attack is called Distributionally Adversarial Attack (DAA). Our paper (Authors: *Tianhang Zheng, Changyou Chen, Kui Ren*) has been submitted to Arxiv, and more details can be found in it. it will show up tomorrow (link).
+We design a new first-order attack algorithm by generalizing PGD on the space of data distributions and learning an adversarial distribution that maximally increases the generalization risk of a model, namely Distributionally Adversarial Attack (DAA). Our DAA attack achieves outstanding attack success rates on those state-of-the-art defense models. 
+Our paper link is https://arxiv.org/abs/1808.05537 (Authors: *Tianhang Zheng, Changyou Chen, Kui Ren*) 
 
 There are 2 attack versions, i.e., DAA-BLOB and DAA-DGF. Our code is written based on https://github.com/MadryLab/mnist_challenge
 
