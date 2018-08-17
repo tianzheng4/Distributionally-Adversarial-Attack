@@ -21,6 +21,7 @@ There are 2 attack versions, i.e., DAA-BLOB and DAA-DGF. Our code is written bas
 Python3.5/3.6 is suggusted.
 
 Our MNIST result shows on MadryLab's white-box leaderboard :-) =>  https://github.com/MadryLab/mnist_challenge
+
 CIFAR10 and Imagenet Coming Soon.
 
 We also evaluate our attack against provable defense, and the code is also coming soon.
