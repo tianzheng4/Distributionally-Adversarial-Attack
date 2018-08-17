@@ -16,6 +16,7 @@ There are 2 attack versions, i.e., DAA-BLOB and DAA-DGF. Our code is written bas
 - `python dgf_rand.py`: DAA-DGF attack
 - `python pgd_rand.py`: PGD attack
 - `python mi_pgd_rand.py`: PGD variant of Momentum Iterative attack
+
 Python3.5/3.6 is suggusted.
 
 CIFAR10 and Imagenet Coming Soon.
