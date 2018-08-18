@@ -7,7 +7,7 @@ Another potential provable defense method is:
 https://github.com/locuslab/convex_adversarial
 
 We design a new first-order attack algorithm by generalizing PGD on the space of data distributions and learning an adversarial distribution that maximally increases the generalization risk of a model, namely Distributionally Adversarial Attack (DAA). Our DAA attack achieves outstanding attack success rates on those state-of-the-art defense models. 
-Our paper link is https://arxiv.org/abs/1808.05537 (Paper Authors: *Tianhang Zheng, Changyou Chen(https://cse.buffalo.edu/~changyou/), Kui Ren*) 
+Our paper link is https://arxiv.org/abs/1808.05537 (Paper Authors: *Tianhang Zheng, [Changyou Chen](https://cse.buffalo.edu/~changyou/), Kui Ren*) 
 
 There are 2 attack versions, i.e., DAA-BLOB and DAA-DGF. Our code is written based on MadryLab's code: https://github.com/MadryLab/mnist_challenge
 
