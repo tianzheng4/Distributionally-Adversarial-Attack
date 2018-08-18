@@ -55,9 +55,10 @@ if __name__ == "__main__":
     
     num_classes = model[-1].out_features
     
-    dgf(test_loader, model, args.epsilon, args.niters, args.alpha)
+    
     pgd(test_loader, model, args.epsilon, args.niters, args.alpha)
     svgd(test_loader, model, args.epsilon, args.niters, args.alpha)
+    dgf(test_loader, model, args.epsilon, args.niters, args.alpha)
     
     
 
