@@ -24,6 +24,6 @@ Our MNIST result shows on MadryLab's white-box leaderboard :-) =>  https://githu
 
 CIFAR10 and Imagenet Coming Soon.
 
-We also evaluate our attack against provable defense, and the code is also coming soon.
+We also evaluate our attack against provable defense, and the code is in the directory "convex_adversarial-master".
 
 If there is any question, pls contact tzheng4@buffalo.edu
