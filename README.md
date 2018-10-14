@@ -1,5 +1,5 @@
 # Distributionally Adversarial Attack
-The convex folder is updated, you can evaluate DAA on provable network by the main_attack.py in the its examples folder.
+Update: The convex folder is updated, you can evaluate DAA on provable network by the main_attack.py in the its examples folder.
 
 Recently, many defense models against adversarial attacks existed. By an extensive evaluation, we figure out that one of the 
 most effective defense methods is PGD adversarial training (*Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu* https://arxiv.org/abs/1706.06083)
