@@ -14,7 +14,7 @@ There are 2 attack versions, i.e., DAA-BLOB and DAA-DGF. Our code is written bas
 
 
 ### Running the code
-Since the files in models are not fully uploaded to Github, pls download madry's models using `python3 fetch_model.py` secret
+Since the files in models are not fully uploaded to Github, pls download madry's models using `python3 fetch_model.py secret` 
 - `python blob_rand.py`: DAA-BLOB attack
 - `python dgf_rand.py`: DAA-DGF attack
 - `python pgd_rand.py`: PGD attack
