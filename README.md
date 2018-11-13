@@ -26,7 +26,6 @@ Our MNIST result shows on MadryLab's white-box leaderboard :-) =>  https://githu
 
 Our CIFAR10 result shows on MadryLab's white-box leaderboard :-) =>  https://github.com/MadryLab/cifar10_challenge
 
-CIFAR10 and Imagenet Coming Soon.
 
 We also evaluate our attack against provable defense, and the code is in the directory "convex_adversarial-master".
 
