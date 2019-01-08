@@ -10,16 +10,17 @@ import math
 import os
 import sys
 import time
-
+import setGPU
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
 import numpy as np
 
 from model import Model
-
+#from model_decay import Model
 def run_attack(checkpoint, x_adv, epsilon):
-  mnist = input_data.read_data_sets('MNIST_data', one_hot=False)
+  DATA_DIR = './data/fashion'
+  fmnist = input_data.read_data_sets(DATA_DIR, one_hot=False)
 
   model = Model()
 
@@ -31,7 +32,7 @@ def run_attack(checkpoint, x_adv, epsilon):
   num_batches = int(math.ceil(num_eval_examples / eval_batch_size))
   total_corr = 0
 
-  x_nat = mnist.test.images
+  x_nat = fmnist.test.images
   l_inf = np.amax(np.abs(x_nat - x_adv))
   
   if l_inf > epsilon + 0.0001:
@@ -51,7 +52,7 @@ def run_attack(checkpoint, x_adv, epsilon):
       bend = min(bstart + eval_batch_size, num_eval_examples)
 
       x_batch = x_adv[bstart:bend, :]
-      y_batch = mnist.test.labels[bstart:bend]
+      y_batch = fmnist.test.labels[bstart:bend]
 
       dict_adv = {model.x_input: x_batch,
                   model.y_input: y_batch}

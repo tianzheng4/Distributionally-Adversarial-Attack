@@ -9,7 +9,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 import numpy as np
-
+import setGPU
 
 class LinfPGDAttack:
   def __init__(self, model, epsilon, k, a, random_start, loss_func):
@@ -84,8 +84,8 @@ if __name__ == '__main__':
                          config['random_start'],
                          config['loss_func'])
   saver = tf.train.Saver()
-
-  mnist = input_data.read_data_sets('MNIST_data', one_hot=False)
+  DATA_DIR = './data/fashion'
+  fmnist = input_data.read_data_sets(DATA_DIR, one_hot=False)
 
   with tf.Session() as sess:
     # Restore the checkpoint
@@ -105,8 +105,8 @@ if __name__ == '__main__':
       bend = min(bstart + eval_batch_size, num_eval_examples)
       print('batch size: {}'.format(bend - bstart))
 
-      x_batch = mnist.test.images[bstart:bend, :]
-      y_batch = mnist.test.labels[bstart:bend]
+      x_batch = fmnist.test.images[bstart:bend, :]
+      y_batch = fmnist.test.labels[bstart:bend]
 
       x_batch_adv = attack.perturb(x_batch, y_batch, sess)
 
