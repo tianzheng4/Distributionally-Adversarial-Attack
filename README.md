@@ -1,4 +1,5 @@
 # Distributionally Adversarial Attack
+
 Please cite the paper "Distributionally Adversarial Attack"
 
 Update: The convex folder is updated, you can evaluate DAA on provable network by the main_attack.py in the its examples folder.
