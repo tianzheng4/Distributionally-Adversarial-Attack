@@ -1,8 +1,4 @@
 # Distributionally Adversarial Attack
-Update: I decided to extend the paper to a long version later to explain more the original paper and detail the **Adaptive part**. I expect to put the long version on Arxiv in one/two months. Pls stay tuned.
-
-Update: I just found that the formulas in the original paper have few minor issues, which might cause a little confusion.
-I will update the paper on Arxiv when I am available. But, it is worth noting that the python code is correct. 
 
 Update: The convex folder is updated, you can evaluate DAA on provable network by the main_attack.py in the its examples folder.
 
