@@ -11,6 +11,6 @@ setup(
     url='https://github.com/locuslab/convex_adversarial',
     packages=['convex_adversarial'],
     install_requires=[
-        'torch==2.2.0'
+        'torch==2.6.0'
     ]
 )
